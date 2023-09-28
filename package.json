@@ -1,0 +1,23 @@
+{
+  "name": "diagnostic_robotics_assignment",
+  "version": "1.0.0",
+  "description": "REST API SERVER",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx mocha ./test/prescriptionRouter.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.9",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0",
+    "sinon": "^16.0.0"
+  }
+}

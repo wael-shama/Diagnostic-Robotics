@@ -1,11 +1,11 @@
 Diagnostic Robotics Assignment
 
-### Install It
+#### Install It
 
 ```npm install```
 
 
-### Test it using Curl/Postman
+#### Test it using Curl/Postman
 
 curl -X POST -H "Content-Type: application/json" -d '{"patient_id": "patient123"}' http://localhost:3000/prescriptions/open_prescription
 
